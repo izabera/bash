@@ -18,6 +18,9 @@
    along with Bash.  If not, see <http://www.gnu.org/licenses/>.
 */
 
+#ifndef TIMER_H
+#define TIMER_H
+
 #ifdef HAVE_CONFIG_H
 #include "config.h"
 #endif
@@ -62,3 +65,4 @@ extern int shtimer_chktimeout (sh_timer *);
 
 extern int shtimer_select (sh_timer *);
 extern int shtimer_alrm (sh_timer *);
+#endif

@@ -18,6 +18,8 @@
    along with Bash.  If not, see <http://www.gnu.org/licenses/>.
 */
 
+#ifndef SHELL_H
+#define SHELL_H
 #ifdef HAVE_CONFIG_H
 #include "config.h"
 #endif
@@ -238,3 +240,4 @@ extern void restore_parser_state PARAMS((sh_parser_state_t *));
 
 extern sh_input_line_state_t *save_input_line_state PARAMS((sh_input_line_state_t *));
 extern void restore_input_line_state PARAMS((sh_input_line_state_t *));
+#endif

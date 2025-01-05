@@ -17,6 +17,9 @@
    along with Bash.  If not, see <http://www.gnu.org/licenses/>.
 */
 
+#ifndef GETPAGESIZE_H
+#define GETPAGESIZE_H
+
 #if defined (HAVE_UNISTD_H)
 #  ifdef _MINIX
 #    include <sys/types.h>
@@ -57,4 +60,6 @@
 
 #if !defined (getpagesize)
 #  define getpagesize() 4096  /* Just punt and use reasonable value */
+#endif
+
 #endif

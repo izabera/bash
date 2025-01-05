@@ -18,6 +18,9 @@
    along with Bash.  If not, see <http://www.gnu.org/licenses/>.
 */
 
+#ifndef HASHCMD_H
+#define HASHCMD_H
+
 #include "stdc.h"
 #include "hashlib.h"
 
@@ -41,3 +44,4 @@ extern void phash_flush PARAMS((void));
 extern void phash_insert PARAMS((char *, char *, int, int));
 extern int phash_remove PARAMS((const char *));
 extern char *phash_search PARAMS((const char *));
+#endif
