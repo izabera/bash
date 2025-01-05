@@ -21,6 +21,10 @@
 #if !defined (_SIGLIST_H_)
 #define _SIGLIST_H_
 
+#if defined (HAVE_CONFIG_H)
+#  include "config.h"
+#endif
+
 #if !defined (SYS_SIGLIST_DECLARED) && !defined (HAVE_STRSIGNAL)
 
 #if defined (HAVE_UNDER_SYS_SIGLIST) && !defined (HAVE_SYS_SIGLIST) && !defined (sys_siglist)

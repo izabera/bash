@@ -24,6 +24,10 @@
 #if !defined (_POSIXSTAT_H_)
 #define _POSIXSTAT_H_
 
+#if defined (HAVE_CONFIG_H)
+#  include "config.h"
+#endif
+
 #include <sys/stat.h>
 
 #if defined (STAT_MACROS_BROKEN)

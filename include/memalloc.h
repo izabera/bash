@@ -22,6 +22,10 @@
 #if !defined (_MEMALLOC_H_)
 #  define _MEMALLOC_H_
 
+#if defined (HAVE_CONFIG_H)
+#  include "config.h"
+#endif
+
 #if defined (sparc) && defined (sun) && !defined (HAVE_ALLOCA_H)
 #  define HAVE_ALLOCA_H
 #endif

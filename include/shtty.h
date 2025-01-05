@@ -24,6 +24,10 @@
 #ifndef __SH_TTY_H_
 #define __SH_TTY_H_
 
+#if defined (HAVE_CONFIG_H)
+#  include "config.h"
+#endif
+
 #include "stdc.h"
 
 #if defined (_POSIX_VERSION) && defined (HAVE_TERMIOS_H) && defined (HAVE_TCGETATTR) && !defined (TERMIOS_MISSING)

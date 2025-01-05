@@ -20,6 +20,10 @@
 #ifndef GETPAGESIZE_H
 #define GETPAGESIZE_H
 
+#if defined (HAVE_CONFIG_H)
+#  include "config.h"
+#endif
+
 #if defined (HAVE_UNISTD_H)
 #  ifdef _MINIX
 #    include <sys/types.h>

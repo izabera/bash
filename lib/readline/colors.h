@@ -27,6 +27,10 @@
 #ifndef _COLORS_H_
 #define _COLORS_H_
 
+#if defined (HAVE_CONFIG_H)
+#  include "config.h"
+#endif
+
 #include <stdio.h> // size_t
 
 #if defined(__TANDEM) && defined(HAVE_STDBOOL_H) && (__STDC_VERSION__ < 199901L)

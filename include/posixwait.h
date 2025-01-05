@@ -21,6 +21,10 @@
 #if !defined (_POSIXWAIT_H_)
 #  define _POSIXWAIT_H_
 
+#if defined (HAVE_CONFIG_H)
+#  include "config.h"
+#endif
+
 /* If _POSIX_VERSION is not defined, we assume that <sys/wait.h> defines
    a `union wait' and various macros used to manipulate it.  Look in
    unionwait.h for the things we expect to find. */

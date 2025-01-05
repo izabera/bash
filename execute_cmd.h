@@ -21,6 +21,10 @@
 #if !defined (_EXECUTE_CMD_H_)
 #define _EXECUTE_CMD_H_
 
+#if defined (HAVE_CONFIG_H)
+#  include "config.h"
+#endif
+
 #include "stdc.h"
 
 #if defined (ARRAY_VARS)

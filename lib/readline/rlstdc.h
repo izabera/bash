@@ -22,6 +22,10 @@
 #if !defined (_RL_STDC_H_)
 #define _RL_STDC_H_
 
+#if defined (HAVE_CONFIG_H)
+#  include "config.h"
+#endif
+
 /* Adapted from BSD /usr/include/sys/cdefs.h. */
 
 /* A function can be defined using prototypes and compile on both ANSI C

@@ -18,7 +18,10 @@
    along with Bash.  If not, see <http://www.gnu.org/licenses/>.
 */
 
-#include "config.h"
+#if defined (HAVE_CONFIG_H)
+#  include "config.h"
+#endif
+
 
 #if !defined (__GNUC__) && !defined (HAVE_ALLOCA_H) && defined (_AIX)
   #pragma alloca

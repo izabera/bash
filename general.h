@@ -21,6 +21,10 @@
 #if !defined (_GENERAL_H_)
 #define _GENERAL_H_
 
+#if defined (HAVE_CONFIG_H)
+#  include "config.h"
+#endif
+
 #include "stdc.h"
 
 #include "bashtypes.h"

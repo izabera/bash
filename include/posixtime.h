@@ -21,6 +21,10 @@
 #ifndef _POSIXTIME_H_
 #define _POSIXTIME_H_
 
+#if defined (HAVE_CONFIG_H)
+#  include "config.h"
+#endif
+
 /* include this after config.h */
 /* Some systems require this, mostly for the definition of `struct timezone'.
    For example, Dynix/ptx has that definition in <time.h> rather than

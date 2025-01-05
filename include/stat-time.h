@@ -20,6 +20,10 @@
 #ifndef STAT_TIME_H
 #define STAT_TIME_H 1
 
+#if defined (HAVE_CONFIG_H)
+#  include "config.h"
+#endif
+
 #include <sys/stat.h>
 
 #if defined (TIME_H_DEFINES_STRUCT_TIMESPEC)

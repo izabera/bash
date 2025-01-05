@@ -22,6 +22,10 @@
 #ifndef _CHARDEFS_H_
 #define _CHARDEFS_H_
 
+#if defined (HAVE_CONFIG_H)
+#  include "config.h"
+#endif
+
 #include <ctype.h>
 
 #if defined (HAVE_CONFIG_H)

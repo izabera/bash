@@ -21,6 +21,10 @@
 #if !defined (_BASHTYPES_H_)
 #  define _BASHTYPES_H_
 
+#if defined (HAVE_CONFIG_H)
+#  include "config.h"
+#endif
+
 #if defined (CRAY)
 #  define word __word
 #endif

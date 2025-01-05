@@ -23,6 +23,10 @@
 #if !defined (_POSIXDIR_H_)
 #define _POSIXDIR_H_
 
+#if defined (HAVE_CONFIG_H)
+#  include "config.h"
+#endif
+
 #if defined (HAVE_DIRENT_H)
 #  include <dirent.h>
 #  if defined (HAVE_STRUCT_DIRENT_D_NAMLEN)

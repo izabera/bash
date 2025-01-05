@@ -22,6 +22,10 @@
 #ifndef _UNIONWAIT_H
 #define _UNIONWAIT_H
 
+#if defined (HAVE_CONFIG_H)
+#  include "config.h"
+#endif
+
 #if !defined (WORDS_BIGENDIAN)
 union wait
   {

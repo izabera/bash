@@ -21,6 +21,10 @@
 #ifndef _POSIXSELECT_H_
 #define _POSIXSELECT_H_
 
+#if defined (HAVE_CONFIG_H)
+#  include "config.h"
+#endif
+
 #if defined (FD_SET) && !defined (HAVE_SELECT)
 #  define HAVE_SELECT 1
 #endif

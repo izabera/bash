@@ -21,6 +21,10 @@
 #if !defined (_BASHANSI_H_)
 #define _BASHANSI_H_
 
+#if defined (HAVE_CONFIG_H)
+#  include "config.h"
+#endif
+
 #if defined (HAVE_STRING_H)
 #  include <string.h>
 #endif /* !HAVE_STRING_H */

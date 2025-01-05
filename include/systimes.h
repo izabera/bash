@@ -28,6 +28,10 @@
 #ifndef	_BASH_SYSTIMES_H
 #define _BASH_SYSTIMES_H	1
 
+#if defined (HAVE_CONFIG_H)
+#  include "config.h"
+#endif
+
 #if defined (HAVE_SYS_TIMES_H)
 #  include <sys/times.h>
 #else /* !HAVE_SYS_TIMES_H */

@@ -22,6 +22,10 @@
 #if !defined (_RLTTY_H_)
 #define _RLTTY_H_
 
+#if defined (HAVE_CONFIG_H)
+#  include "config.h"
+#endif
+
 /* Posix systems use termios and the Posix signal functions. */
 #if defined (TERMIOS_TTY_DRIVER)
 #  include <termios.h>

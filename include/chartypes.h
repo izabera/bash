@@ -21,6 +21,10 @@
 #ifndef _SH_CHARTYPES_H
 #define _SH_CHARTYPES_H
 
+#if defined (HAVE_CONFIG_H)
+#  include "config.h"
+#endif
+
 #include <ctype.h>
 
 #ifndef UCHAR_MAX

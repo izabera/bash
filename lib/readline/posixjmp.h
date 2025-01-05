@@ -21,6 +21,10 @@
 #ifndef _POSIXJMP_H_
 #define _POSIXJMP_H_
 
+#if defined (HAVE_CONFIG_H)
+#  include "config.h"
+#endif
+
 #include <setjmp.h>
 
 /* This *must* be included *after* config.h */

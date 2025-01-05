@@ -22,6 +22,10 @@
 #if !defined (_RL_MBUTIL_H_)
 #define _RL_MBUTIL_H_
 
+#if defined (HAVE_CONFIG_H)
+#  include "config.h"
+#endif
+
 #include "rlstdc.h"
 
 /************************************************/

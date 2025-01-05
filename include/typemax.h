@@ -26,6 +26,10 @@
 #ifndef _SH_TYPEMAX_H
 #define _SH_TYPEMAX_H
 
+#if defined (HAVE_CONFIG_H)
+#  include "config.h"
+#endif
+
 #ifndef CHAR_BIT
 #  define CHAR_BIT 8
 #endif

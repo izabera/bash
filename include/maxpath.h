@@ -21,6 +21,10 @@
 #if !defined (_MAXPATH_H_)
 #define _MAXPATH_H_
 
+#if defined (HAVE_CONFIG_H)
+#  include "config.h"
+#endif
+
 /* These values are supposed to be in <limits.h> or one of the files
    it includes. */
 #if defined (HAVE_LIMITS_H)
