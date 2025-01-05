@@ -24,6 +24,8 @@
 #define _ARRAY_H_
 
 #include "stdc.h"
+#include "bashtypes.h"
+#include "command.h"
 
 typedef intmax_t	arrayind_t;
 

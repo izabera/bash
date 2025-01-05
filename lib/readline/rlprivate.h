@@ -23,6 +23,7 @@
 #if !defined (_RL_PRIVATE_H_)
 #define _RL_PRIVATE_H_
 
+#include "keymaps.h"
 #include "rlconf.h"	/* for VISIBLE_STATS */
 #include "rlstdc.h"
 #include "posixjmp.h"	/* defines procenv_t */

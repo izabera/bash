@@ -25,6 +25,9 @@
 #include "config.h"
 #endif
 
+#include "sig.h"
+#include "xmalloc.h"
+
 #include "bashjmp.h"
 typedef struct _shtimer
 {

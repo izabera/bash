@@ -26,6 +26,8 @@
 #endif
 
 #include "stdc.h"
+#include "array.h"
+#include "variables.h"
 
 #if defined (ARRAY_VARS)
 struct func_array_state

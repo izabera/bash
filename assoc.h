@@ -24,6 +24,7 @@
 
 #include "stdc.h"
 #include "hashlib.h"
+#include "array.h"
 
 #define ASSOC_HASH_BUCKETS	1024
 

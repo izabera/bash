@@ -23,6 +23,8 @@
 
 #include "stdc.h"
 
+#include "general.h"
+
 #ifndef PTR_T
 #  ifdef __STDC__
 #    define PTR_T void *
